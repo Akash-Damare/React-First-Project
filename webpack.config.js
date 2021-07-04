@@ -26,7 +26,7 @@ module.exports = {
       template: "app/index.html",
     }),
     new CopyPlugin({
-      patterns: [{ from: "_redirects", to: "dist" }],
+      patterns: [{ from: "_redirects" }],
     }),
   ],
   devServer: {
